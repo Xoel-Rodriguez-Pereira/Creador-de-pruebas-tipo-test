@@ -1,6 +1,39 @@
 .questions-scroll,
 .questions-scroll > .viewport {
-    -fx-background-color: transparent;
+    -fx-background-color: #07182d;
+}
+
+.questions-scroll > .corner {
+    -fx-background-color: #07182d;
+}
+
+.questions-scroll .scroll-bar:vertical {
+    -fx-background-color: #0d2741;
+    -fx-padding: 2px;
+}
+
+.questions-scroll .scroll-bar:vertical .thumb {
+    -fx-background-color: #8299ad;
+    -fx-background-radius: 6px;
+}
+
+.questions-scroll .scroll-bar:vertical .thumb:hover {
+    -fx-background-color: #9aafc1;
+}
+
+.questions-scroll .scroll-bar:vertical .track {
+    -fx-background-color: #102b46;
+    -fx-background-radius: 6px;
+}
+
+.questions-scroll .scroll-bar:vertical .increment-button,
+.questions-scroll .scroll-bar:vertical .decrement-button {
+    -fx-background-color: #0d2741;
+}
+
+.questions-scroll .scroll-bar:vertical .increment-arrow,
+.questions-scroll .scroll-bar:vertical .decrement-arrow {
+    -fx-background-color: #c4d2df;
 }
 
 .questions-container {
@@ -8,14 +41,23 @@
     -fx-padding: 4 8 4 4;
 }
 
-.question-card {
+.question-card,
+.score-summary,
+.score-card {
     -fx-spacing: 8px;
     -fx-padding: 14px;
-    -fx-background-color: white;
-    -fx-border-color: #d5d9df;
+    -fx-background-color: #17486b;
+    -fx-border-color: #041426;
     -fx-border-width: 1px;
     -fx-border-radius: 6px;
     -fx-background-radius: 6px;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.18), 12, 0.1, 0, 0);
+    -fx-translate-y: 0;
+}
+
+.question-card:hover {
+    -fx-translate-y: -4px;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.28), 16, 0.12, 0, 2);
 }
 
 .question-card.correct-answer {
@@ -34,9 +76,9 @@
 }
 
 .question-title {
-    -fx-font-size: 16px;
+    -fx-font-size: 18px;
     -fx-font-weight: bold;
-    -fx-text-fill: #202124;
+    -fx-text-fill: #f4f8fc;
 }
 
 .options-container {
@@ -44,6 +86,19 @@
 }
 
 .answer-option {
-    -fx-font-size: 14px;
-    -fx-text-fill: #202124;
+    -fx-font-size: 16px;
+    -fx-text-fill: #f4f8fc;
+    -fx-mark-color: #39d5e8;
+}
+
+.answer-option .text {
+    -fx-fill: #f4f8fc;
+}
+
+.answer-option:disabled {
+    -fx-opacity: 1;
+}
+
+.review-icon {
+    -fx-text-fill: #f4f8fc;
 }

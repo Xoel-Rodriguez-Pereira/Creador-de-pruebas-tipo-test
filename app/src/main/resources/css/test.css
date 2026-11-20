@@ -1,5 +1,5 @@
 .test-screen {
-    -fx-background-color: #f5f6f8;
+    -fx-background-color: #07182d;
 }
 
 .test-header {
@@ -9,7 +9,7 @@
 .test-title {
     -fx-font-size: 28px;
     -fx-font-weight: bold;
-    -fx-text-fill: #202124;
+    -fx-text-fill: #f4f8fc;
 }
 
 .close-button {
@@ -23,7 +23,7 @@
 }
 
 .close-button:hover {
-    -fx-background-color: #f0f0f0;
+    -fx-background-color: #dce8f2;
 }
 
 .test-content {
@@ -32,26 +32,59 @@
 }
 
 .score-panel {
-    -fx-spacing: 18px;
-    -fx-padding: 14px;
-    -fx-background-color: white;
-    -fx-background-radius: 8px;
+    -fx-spacing: 16px;
+    -fx-padding: 0 0 0 0;
 }
 
-.score-details {
-    -fx-spacing: 10px;
+.score-summary,
+.score-card {
+    -fx-spacing: 12px;
+    -fx-padding: 16px;
+}
+
+.score-summary {
+    -fx-alignment: center-left;
+    -fx-max-width: infinity;
+}
+
+.summary-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #f4f8fc;
 }
 
 .check-button {
     -fx-font-size: 16px;
     -fx-font-weight: bold;
+    -fx-text-fill: #06253a;
+    -fx-background-color: #39d5e8;
+    -fx-background-radius: 6px;
+    -fx-border-radius: 6px;
+    -fx-cursor: hand;
+}
+
+.check-button:hover {
+    -fx-background-color: #65e4f0;
+}
+
+.check-button:disabled {
+    -fx-opacity: 0.7;
 }
 
 .restart-button {
     -fx-font-size: 14px;
+    -fx-text-fill: #2b1a08;
+    -fx-background-color: #e9a64b;
+    -fx-background-radius: 6px;
+    -fx-border-radius: 6px;
+    -fx-cursor: hand;
+}
+
+.restart-button:hover {
+    -fx-background-color: #f2b968;
 }
 
 .score-label {
     -fx-font-size: 22px;
     -fx-font-weight: bold;
+    -fx-text-fill: #f4f8fc;
 }

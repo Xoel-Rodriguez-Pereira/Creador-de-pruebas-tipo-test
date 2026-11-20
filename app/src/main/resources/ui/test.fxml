@@ -47,13 +47,15 @@
          <VBox alignment="TOP_CENTER" prefWidth="220.0" minWidth="200.0" styleClass="score-panel">
             <Button fx:id="comprobarButton" text="Corregir test"
                     onAction="#comprobar" maxWidth="Infinity" styleClass="check-button" />
-            <Label fx:id="notaLabel" text="Nota: -- / 10" styleClass="score-label" />
             <Button fx:id="reiniciarButton" text="Reiniciar test"
                     onAction="#reiniciar" maxWidth="Infinity" styleClass="restart-button" />
-            <VBox styleClass="score-details">
-               <Label fx:id="aciertosLabel" text="Aciertos: 0" />
-               <Label fx:id="fallosLabel" text="Fallos: 0" />
-               <Label fx:id="sinResponderLabel" text="Sin responder: 0" />
+            <VBox styleClass="score-summary">
+               <Label fx:id="aciertosLabel" text="Aciertos: 0" styleClass="summary-label" />
+               <Label fx:id="fallosLabel" text="Fallos: 0" styleClass="summary-label" />
+               <Label fx:id="sinResponderLabel" text="Sin responder: 0" styleClass="summary-label" />
+            </VBox>
+            <VBox alignment="CENTER" styleClass="score-card">
+               <Label fx:id="notaLabel" text="Nota: -- / 10" styleClass="score-label" />
             </VBox>
          </VBox>
          <Region HBox.hgrow="ALWAYS" />

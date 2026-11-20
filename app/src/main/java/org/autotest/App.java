@@ -10,6 +10,7 @@ import org.autotest.model.Test;
 import org.autotest.repository.SerializarPreguntas;
 
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.input.KeyCode;
@@ -33,13 +34,21 @@ public class App extends Application {
         stage.setScene(scene);
         stage.setFullScreenExitKeyCombination(KeyCombination.NO_MATCH);
         scene.addEventFilter(javafx.scene.input.KeyEvent.KEY_PRESSED, event -> {
-            if (event.getCode() == KeyCode.ESCAPE) {
+            if (event.getCode() == KeyCode.F11) {
+                stage.setFullScreen(!stage.isFullScreen());
+                event.consume();
+            } else if (event.getCode() == KeyCode.ESCAPE) {
                 stage.close();
                 event.consume();
             }
         });
         stage.show();
         stage.setFullScreen(true);
+        stage.requestFocus();
+        Platform.runLater(() -> {
+            stage.requestFocus();
+            scene.getRoot().requestFocus();
+        });
     }
 
     public static void main(String[] args) {
