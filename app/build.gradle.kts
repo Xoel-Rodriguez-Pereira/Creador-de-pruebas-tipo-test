@@ -41,7 +41,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "org.autotest.App"
+    mainClass = "org.autotest.Launcher"
 }
 
 tasks.register("runfx") {
@@ -57,7 +57,7 @@ tasks.register<Jar>("fatjar") {
     dependsOn(tasks.named("classes"))
 
     manifest {
-        attributes["Main-Class"] = application.mainClass.get()
+        attributes["Main-Class"] = "org.autotest.Launcher"
     }
 
     duplicatesStrategy = org.gradle.api.file.DuplicatesStrategy.EXCLUDE
