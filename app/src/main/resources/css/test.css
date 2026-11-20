@@ -1,0 +1,57 @@
+.test-screen {
+    -fx-background-color: #f5f6f8;
+}
+
+.test-header {
+    -fx-padding: 18 28 16 28;
+}
+
+.test-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #202124;
+}
+
+.close-button {
+    -fx-padding: 8px;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-cursor: hand;
+}
+
+.close-button:hover {
+    -fx-background-color: #f0f0f0;
+}
+
+.test-content {
+    -fx-spacing: 28px;
+    -fx-padding: 12 28 24 28;
+}
+
+.score-panel {
+    -fx-spacing: 18px;
+    -fx-padding: 14px;
+    -fx-background-color: white;
+    -fx-background-radius: 8px;
+}
+
+.score-details {
+    -fx-spacing: 10px;
+}
+
+.check-button {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.restart-button {
+    -fx-font-size: 14px;
+}
+
+.score-label {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}

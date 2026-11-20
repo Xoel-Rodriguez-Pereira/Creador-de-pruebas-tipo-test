@@ -1,0 +1,49 @@
+.questions-scroll,
+.questions-scroll > .viewport {
+    -fx-background-color: transparent;
+}
+
+.questions-container {
+    -fx-spacing: 12px;
+    -fx-padding: 4 8 4 4;
+}
+
+.question-card {
+    -fx-spacing: 8px;
+    -fx-padding: 14px;
+    -fx-background-color: white;
+    -fx-border-color: #d5d9df;
+    -fx-border-width: 1px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+}
+
+.question-card.correct-answer {
+    -fx-border-color: #2e9d50;
+    -fx-border-width: 2px;
+}
+
+.question-card.incorrect-answer {
+    -fx-border-color: #d64545;
+    -fx-border-width: 2px;
+}
+
+.question-card.unanswered {
+    -fx-border-color: #e89b27;
+    -fx-border-width: 2px;
+}
+
+.question-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #202124;
+}
+
+.options-container {
+    -fx-spacing: 6px;
+}
+
+.answer-option {
+    -fx-font-size: 14px;
+    -fx-text-fill: #202124;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="preguntaCard" styleClass="question-card"
+      xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.autotest.controller.PreguntaController">
+   <Label fx:id="enunciadoLabel" wrapText="true" styleClass="question-title" />
+   <VBox fx:id="opcionesContainer" styleClass="options-container" />
+</VBox>

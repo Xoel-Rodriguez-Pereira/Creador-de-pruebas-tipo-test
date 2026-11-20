@@ -1,0 +1,1220 @@
+{
+    "preguntas": [
+        {
+            "enunciado": "Al diseñar una aplicación, ¿Qué principios de diseño se están aplicando principalmente?",
+            "solucion": "B",
+            "opciones": [
+            "A. Un diseño orientado a la tecnología, centrado en optimizar el rendimiento del código por encima de la comodidad del usuario.",
+            "B. Un diseño centrado en el usuario (User-Centered Design), que adapta la interfaz a las necesidades reales de las personas.",
+            "C. Un diseño basado exclusivamente en el lenguaje de presentación para transmitir datos de forma unidireccional.",
+            "D. Una interfaz de preguntas y respuestas donde el ordenador guía de forma rígida cada paso del proceso."
+            ]
+        },
+        {
+            "enunciado": "En una empresa de comercio, se quiere cambiar los iconos de volver para atrás y el carrito de compra por otros de estética abstracta e innovadora para destacar. ¿Por qué esta decisión puede perjudicar negativamente la experiencia del usuario?",
+            "solucion": "A",
+            "opciones": [
+            "A. Porque al modificar los símbolos y convenciones visuales habituales, se dificulta la comprensión intuitiva y se empeora la experiencia del usuario.",
+            "B. Porque reduce automáticamente el contraste visual entre el texto y el fondo, afectando a la accesibilidad.",
+            "C. Porque transforma la interfaz gráfica en un entorno de preguntas y respuestas demasiado rígido.",
+            "D. Porque elimina por completo la necesidad de realizar test con usuarios reales para comprobar su usabilidad."
+            ]   
+        },
+        {     
+            "enunciado": "Estás revisando una aplicación y presenta unos textos difíciles de leer por la similitud de color con el fondo, menús saturados con demasiados elementos visuales en pantalla, y ausencia total de avisos cuando el usuario pulsa un botón o se produce un fallo. ¿Qué principios fundamentales de las recomendaciones prácticas se están incumpliendo?",
+            "solucion": "A",
+            "opciones": [
+            "A. Simplicidad y minimalismo, retroalimentación (feedback) y control, y adaptabilidad y accesibilidad (contrastes).",
+            "B. Consistencia y coherencia y uso exclusivo de interfaces de lenguaje natural.",
+            "C. Optimización de la velocidad de carga y diseño exclusivo para una única resolución de pantalla de escritorio.",
+            "D. Uso de llamadas a la acción (CTA) directas y estrategias omnicanal."
+            ]    
+        },
+        { 
+            "enunciado": "Estás rellenando un formulario y al enviarlo sale el \"error 500\". ¿Qué error de diseño se está cometiendo?",
+            "solucion": "B",
+            "opciones": [
+            "A. Exceso de espacios en blanco en la interfaz y aplicación de un diseño exclusivamente responsive para ordenadores.",
+            "B. Uso de formularios demasiado complejos sin soporte, combinado con mensajes de error frustrantes y falta de control para dar una \"salida de emergencia\".",
+            "C. Falta absoluta de bloques de texto cortos y ausencia de elementos visuales en el menú de navegación.",
+            "D. Saturación de animaciones excesivas y uso de una paleta de colores con muy poco contraste entre el texto y el fondo."
+            ]  
+        },
+        {   
+            "enunciado": "Una empresa de comercio electrónico y el algoritmo se enfocan en resaltar los productos con mayor probabilidad de venta y guiar de forma fluida al visitante hacia la transacción final, ¿Qué objetivo principal está persiguiendo con su interfaz?",
+            "solucion": "D",
+            "opciones": [
+            "A. Convertir la web en una interfaz de preguntas y respuestas estricta.",
+            "B. Reducir los canales de comunicación adoptando un modelo exclusivamente físico.",
+            "C. Eliminar por completo las llamadas a la acción para evitar presionar al usuario.",
+            "D. Incrementar las conversiones y ventas adaptando la interfaz comercial a los objetivos del negocio y del consumidor."
+            ]  
+        },
+        {  
+            "enunciado": "Estás revisando el diseño de una interfaz para asegurarte de que cumpla con el principio de \"Consistencia y coherencia\". ¿Cuál de las siguientes acciones deberías verificar que se está cumpliendo?",
+            "solucion": "C",
+            "opciones": [
+            "A. Que se reduzca al mínimo la velocidad de carga comprimiendo todos los recursos multimedia.",
+            "B. Que la aplicación funcione únicamente en una sola resolución de pantalla vertical.",
+            "C. Que se utilice la misma paleta de colores, tipografías y estilos de botones en todo el sistema, respetando los estándares.",
+            "D. Que el sistema responda de inmediato mostrando un aviso cada vez que el usuario haga clic."
+            ] 
+        },
+        {  
+            "enunciado": "Para cumplir con el principio de \"Adaptabilidad y accesibilidad\" en una interfaz multidispositivo, ¿qué combinación de acciones prácticas debes llevar a cabo?",
+            "solucion": "B",
+            "opciones": [
+            "A. Reducir al mínimo los espacios en blanco, utilizar tecnicismos complejos y eliminar el buscador interno.",
+            "B. Asegurar un diseño responsive para ordenadores, móviles y tabletas, cuidar los contrastes entre texto y fondo, y optimizar el rendimiento comprimiendo imágenes.",
+            "C. Diseñar formularios extremadamente complejos y ocultar el estado del sistema para mantener la pantalla limpia.",
+            "D. Modificar constantemente las convenciones visuales y los iconos de una pantalla a otra para sorprender al usuario."
+            ] 
+        },
+        {  
+            "enunciado": "¿Qué tipo de interfaz permite a los usuarios interactuar con una máquina usando un lenguaje cotidiano sin necesidad de conocimientos especiales (como hace Alexa)?",
+            "solucion": "C",
+            "opciones": [
+            "A. Una interfaz gráfica de usuario (GUI).",
+            "B. Una interfaz de preguntas y respuestas.",
+            "C. Una interfaz de lenguaje natural.",
+            "D. Una interfaz de línea de comandos."
+            ] 
+        },
+        {  
+            "enunciado": "¿Cuál es la función principal de la estructura y el layout en una interfaz digital?",
+            "solucion": "B",
+            "opciones": [
+            "A) Cumplir un propósito puramente estético y ornamental.",
+            "B) Determinar cómo se ordena la información y cómo se relacionan los componentes para facilitar su uso.",
+            "C) Sustituir por completo la necesidad de tipografía y contraste cromático.",
+            "D) Aumentar el número de elementos visuales para hacer la interfaz más compleja."
+            ] 
+        },
+        {  
+            "enunciado": "¿Cuáles son las tres capas que trabajan juntas en una interfaz según el documento?",
+            "solucion": "B",
+            "opciones": [
+            "A) Código, Servidor y Base de datos.",
+            "B) Contenido, Estructura y Apariencia.",
+            "C) Cabecera, Cuerpo y Pie.",
+            "D) Grid, Flexbox y Posicionamiento."
+            ] 
+        },
+        {
+        
+            "enunciado": "Según Microsoft, la jerarquía visual se describe mediante cinco elementos clave. ¿Cuáles son?",
+            "solucion": "A",
+            "opciones": [
+            "A) Foco, recorrido, agrupación, énfasis y alineación.",
+            "B) Color, brillo, sombra, opacidad y saturación.",
+            "C) Grid, Flexbox, Float, Position y Display.",
+            "D) Cabecera, navegación, contenido, lateral y pie."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "De acuerdo con las recomendaciones de Apple sobre la distribución de elementos, se debe:",
+            "solucion": "B",
+            "opciones": [
+            "A) Ocupar todo el espacio en blanco disponible sin dejar huecos vacíos.",
+            "B) Agrupar la información relacionada, reservar espacio suficiente para lo esencial y mantener alineación coherente.",
+            "C) Encerrar cada bloque de texto en paneles y cajas con bordes gruesos.",
+            "D) Utilizar la máxima densidad posible en todas las pantallas."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Respecto a la navegación, ¿cuál de las siguientes es una buena práctica descrita en el documento?",
+            "solucion": "B",
+            "opciones": [
+            "A) Presentar el máximo número posible de opciones al mismo nivel.",
+            "B) Utilizar etiquetas breves y descriptivas y hacer perceptible el estado de la sección actual.",
+            "C) Ocultar siempre la sección actual para no saturar la vista.",
+            "D) Usar etiquetas ambiguas para incentivar la exploración del usuario."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Qué caracteriza a un diseño adaptable (responsive design)?",
+            "solucion": "B",
+            "opciones": [
+            "A) Asume la existencia de un único modelo de dispositivo estándar.",
+            "B) Responde a la anchura disponible y a la cantidad de contenido reorganizando el layout.",
+            "C) Mantiene exactamente la misma disposición fija de 4 columnas en móviles y escritorio.",
+            "D) Recorta automáticamente el texto sobrante para que no ocupe espacio."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "CSS Grid se define principalmente como un sistema de distribución:",
+            "solucion": "B",
+            "opciones": [
+            "A) Unidimensional (centrado en filas o columnas de forma independiente).",
+            "B) Bidimensional (permite controlar filas y columnas a la vez).",
+            "C) Basado exclusivamente en posicionamiento absoluto.",
+            "D) Exclusivo para la maquetación de textos corridos editoriales."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Cuándo es más recomendable utilizar Flexbox frente a CSS Grid?",
+            "solucion": "B",
+            "opciones": [
+            "A) Cuando se requiere coordinar áreas complejas en dos dimensiones simultáneamente.",
+            "B) Cuando se distribuyen elementos principalmente en una dimensión (fila o columna) y la alineación es prioridad.",
+            "C) Para maquetar la estructura global de todo un portal de noticias.",
+            "D) Para dividir un texto en columnas de estilo periódico."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Por qué es importante mantener un buen contraste entre el texto y el fondo de una web?",
+            "solucion": "C",
+            "opciones": [
+            "A) Para que la página cargue más rápido.",
+            "B) Para que el texto ocupe menos espacio.",
+            "C) Para garantizar que el contenido sea legible y accesible para todos.",
+            "D) Para poder utilizar una mayor variedad de colores."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Al programar con CSS, ¿cuál es la mejor práctica para gestionar los colores?",
+            "solucion": "A",
+            "opciones": [
+            "A) Utilizar variables CSS centralizadas para facilitar la reutilización y el mantenimiento.",
+            "B) Escribir el código de color manualmente en cada elemento.",
+            "C) Reemplazar el código por imágenes prediseñadas.",
+            "D) Asignar un color completamente distinto a cada párrafo."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Si un formulario indica un error cambiando únicamente el borde del campo a rojo (sin texto ni iconos), ¿qué inconveniente principal presenta?",
+            "solucion": "D",
+            "opciones": [
+            "A) Sobrecarga la memoria del navegador web.",
+            "B) Provoca el borrado automático del botón de envío.",
+            "C) No genera ningún inconveniente estético ni funcional.",
+            "D) Las personas con daltonismo pueden no identificar el error."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Qué técnica visual es adecuada para destacar la acción principal de \"Comprar\" en una tienda online?",
+            "solucion": "D",
+            "opciones": [
+            "A) Aplicar colores brillantes y llamativos a todos los botones por igual.",
+            "B) Ocultar el botón hasta que el usuario pase el cursor por encima.",
+            "C) Pintar toda la interfaz con el mismo tono del botón.",
+            "D) Reservar un color de gran contraste exclusivamente para ese botón principal."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Qué se aconseja al implementar un Modo Oscuro (Dark Mode)?",
+            "solucion": "A",
+            "opciones": [
+            "A) Emplear grises oscuros en lugar de negro puro y suavizar las intensidades del color.",
+            "B) Mantener exactamente la misma paleta que en el modo claro.",
+            "C) Utilizar tipografía amarilla brillante sobre un fondo negro absoluto.",
+            "D) Prohibir por completo el uso de texto de color blanco."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Qué significado se le atribuye habitualmente al color verde en las interfaces web?",
+            "solucion": "C",
+            "opciones": [
+            "A) Precaución ante un proceso pendiente.",
+            "B) Existencia de un error grave o peligro.",
+            "C) Éxito en una acción, confirmación o estado correcto.",
+            "D) Elemento deshabilitado o inactivo."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Qué ocurre al colocar un texto de color gris claro sobre un fondo blanco?",
+            "solucion": "D",
+            "opciones": [
+            "A) Se optimiza la modernidad y la accesibilidad de la web.",
+            "B) El navegador ajusta automáticamente el texto a negro.",
+            "C) Se visualiza correctamente en cualquier tipo de pantalla.",
+            "D) Disminuye el contraste, dificultando notablemente su lectura."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Cómo se representa visualmente un botón interactivo que se encuentra deshabilitado?",
+            "solucion": "D",
+            "opciones": [
+            "A) Mediante el uso de un color rojo brillante.",
+            "B) Con un efecto de parpadeo constante.",
+            "C) Utilizando el mismo color de acento que el botón principal.",
+            "D) En un tono gris apagado o aplicando transparencia."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "En usabilidad web se distingue entre legibilidad y facilidad de lectura. ¿Qué es la legibilidad de un texto?",
+            "solucion": "B",
+            "opciones": [
+            "A. Lo difíciles que son las palabras y las frases que se usan.",
+            "B. Lo fácil que es ver y reconocer cada letra y cada palabra.",
+            "C. Lo bien que el lector entiende y recuerda el mensaje.",
+            "D. El número de tipos de letra distintos que hay en la página."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "El CSS de una web define los párrafos con font-size: 11px y line-height: 1. ¿Qué cambio mejora más la lectura?",
+            "solucion": "A",
+            "opciones": [
+            "A. Cambiar a 1rem (16 px) y poner un interlineado de unos 1,5.",
+            "B. Dejar 11 px y escribir los párrafos en mayúsculas.",
+            "C. Bajar aún más el tamaño para que quepa más texto sin hacer scroll.",
+            "D. Subir solo el tamaño de los títulos y dejar los párrafos como están."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Un diseñador usa texto gris claro (#aaaaaa) de 14 px sobre fondo blanco porque dice que \"queda más elegante\". ¿Cuál es el principal problema?",
+            "solucion": "C",
+            "opciones": [
+            "A. El gris no se puede usar para texto en CSS.",
+            "B. Los textos de 14 px nunca cumplen las pautas de accesibilidad.",
+            "C. El contraste es de unos 2,3:1, menos del 4,5:1 que se pide para texto normal.",
+            "D. Falta poner una familia genérica de reserva."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Qué declaración de font-family es la más segura para una fuente web llamada Open Sans?",
+            "solucion": "D",
+            "opciones": [
+            "A. font-family: \"Open Sans\";",
+            "B. font-family: sans-serif, \"Open Sans\";",
+            "C. font-family: \"Open Sans\", Arial;",
+            "D. font-family: \"Open Sans\", Arial, sans-serif;"
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Dos compañeros tienen que elegir dos fuentes para una web. ¿Qué criterio de combinación es el correcto?",
+            "solucion": "B",
+            "opciones": [
+            "A. Elegir dos sans-serif casi iguales para que no se note la diferencia.",
+            "B. Elegir fuentes que se diferencien bien (por ejemplo, una serif y una sans-serif) y darle a cada una una función fija: títulos y texto.",
+            "C. Cambiar de fuente en cada sección para dar variedad.",
+            "D. Usar dos fuentes decorativas, una para los títulos y otra para los párrafos."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Cuál de estas medidas ayuda a que las fuentes web no ralenticen la página?",
+            "solucion": "A",
+            "opciones": [
+            "A. Usar el formato WOFF2 y cargar solo las variantes (pesos) que de verdad se usan.",
+            "B. Cargar todos los pesos y estilos de la familia por si hacen falta más adelante.",
+            "C. No poner fuente de reserva para que el navegador espere siempre a la fuente web.",
+            "D. Cambiar el texto por imágenes para no descargar ninguna fuente."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Una persona con baja visión cambia en su navegador la separación entre líneas a 1,5, entre letras a 0,12 em y entre palabras a 0,16 em. En una web, los titulares se cortan y se solapan con el párrafo de abajo. ¿Cuál es la causa más probable?",
+            "solucion": "C",
+            "opciones": [
+            "A. Los tamaños están en rem en lugar de en px.",
+            "B. El interlineado de los párrafos se puso sin unidades.",
+            "C. Los contenedores de texto tienen una altura fija en píxeles.",
+            "D. Se usó una fuente del sistema en lugar de una fuente web."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "En la página de inicio de una web, el título principal, los subtítulos y los párrafos tienen el mismo tamaño y grosor, y solo cambia un poco el color. ¿Qué problema de diseño tiene?",
+            "solucion": "D",
+            "opciones": [
+            "A. Demasiadas familias tipográficas.",
+            "B. Demasiada separación entre líneas.",
+            "C. Líneas demasiado largas.",
+            "D. Una jerarquía tipográfica débil: el usuario no distingue qué es lo principal ni puede echar un vistazo rápido a la página."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Qué diferencia principal existe entre padding y margin en el modelo de caja (Box Model) de CSS?",
+            "solucion": "B",
+            "opciones": [
+            "a) El padding es el espacio exterior de la caja, mientras que el margin es el espacio interior.",
+            "b) El padding es el espacio interior entre el contenido y el borde, mientras que el margin es el espacio exterior que separa la caja de sus vecinas.",
+            "c) El padding solo afecta a la anchura del borde y el margin solo a la altura del texto.",
+            "d) Ambos representan exactamente el mismo concepto y se pueden usar indistintamente."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Qué ocurre cuando se aplica la regla CSS * { box-sizing: border-box; } en un proyecto?",
+            "solucion": "A",
+            "opciones": [
+            "a) El ancho declarado de un elemento incluye el padding y el border, pero no el margin.",
+            "b) El ancho declarado solo mide el contenido interior, sumando el padding y el border por fuera.",
+            "c) Oculta automáticamente cualquier desbordamiento de texto (overflow).",
+            "d) Desactiva los márgenes exteriores de todos los contenedores de la página."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Según la guía de accesibilidad WCAG 2.2 (Criterio 2.5.8, nivel AA), ¿cuál es el tamaño mínimo recomendado para los objetivos táctiles o elementos pulsables?",
+            "solucion": "C",
+            "opciones": [
+            "a) Al menos 10x10 píxeles CSS.",
+            "b) Al menos 16x16 píxeles CSS.",
+            "c) Al menos 24x24 píxeles CSS (o separados lo suficiente para no solaparse dentro de un círculo de ese diámetro).",
+            "d) Al menos 64x64 píxeles CSS en cualquier dispositivo."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "A la hora de definir una separación uniforme entre elementos hijos dentro de un contenedor en Flexbox o Grid, ¿cuál es la mejor práctica recomendada?",
+            "solucion": "B",
+            "opciones": [
+            "a) Asignar un margin-bottom individual a cada elemento hijo de la lista.",
+            "b) Usar la propiedad gap directamente en el contenedor padre.",
+            "c) Utilizar valores flotantes fijos en cada etiqueta de HTML.",
+            "d) Aumentar el padding interior del último elemento de la lista."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿En qué principio de la psicología de la Gestalt se basa la agrupación visual de elementos en el diseño de interfaces?",
+            "solucion": "C",
+            "opciones": [
+            "a) Ley de semejanza de color.",
+            "b) Ley de contraste dinámico.",
+            "c) Ley de proximidad (los elementos cercanos se perciben como un grupo relacionado).",
+            "d) Ley de continuidad de línea."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "En el diseño de formularios, ¿cuál de los siguientes patrones es una buena práctica de espaciado y estructura?",
+            "solucion": "B",
+            "opciones": [
+            "a) Aplicar exactamente la misma distancia entre todos los elementos para que parezcan iguales.",
+            "b) Colocar cada etiqueta más cerca de su propio campo que del campo anterior.",
+            "c) Mantener alturas fijas reducidas con overflow: hidden en todos los campos.",
+            "d) Eliminar el espacio entre secciones para mostrar más campos en pantalla de una sola vez."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Qué se entiende por \"números mágicos\" en el contexto de una escala de espaciado y por qué se deben evitar?",
+            "solucion": "C",
+            "opciones": [
+            "a) Son valores dinámicos calculados por CSS Grid para adaptar las imágenes automáticamente.",
+            "b) Son proporciones fijas basadas exclusivamente en la sección áurea.",
+            "c) Son valores arbitrarios y sueltos (como 13px o 17px) que no obedecen a un sistema o escala definida.",
+            "d) Son tokens de diseño declarados como variables CSS reutilizables."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Para mantener una buena legibilidad en bloques de texto continuo, ¿cuál es la referencia recomendada de longitud de línea y de line-height?",
+            "solucion": "B",
+            "opciones": [
+            "a) De 20 a 30 caracteres por línea y un line-height de 1.0.",
+            "b) De 50 a 75 caracteres por línea y un line-height cercano a 1.5.",
+            "c) De 100 a 150 caracteres por línea y un line-height de 2.5.",
+            "d) Sin límite de caracteres por línea y un line-height de 0.8."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Cómo debe implementarse correctamente el atributo alt en una imagen informativa esencial dentro de una interfaz web?",
+            "solucion": "B",
+            "opciones": [
+            "A. Dejando el atributo completamente vacío (alt=\"\") para que los lectores de pantalla la ignoren.",
+            "B. Añadiendo un texto alternativo conciso y claro que describa los datos o el contenido de la imagen.",
+            "C. Utilizando el nombre completo del archivo de imagen para identificar su procedencia técnica.",
+            "D. Omitiendo el atributo alt e insertando la imagen directamente mediante un archivo vectorial SVG."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Qué formato de imagen web se debe seleccionar prioritariamente para un logotipo corporativo que requiere fondo transparente y líneas perfectamente nítidas?",
+            "solucion": "C",
+            "opciones": [
+            "A. JPEG, debido a su compresión con pérdida optimizada para fotografías.",
+            "B. GIF, ya que admite transparencias avanzadas y millones de colores ilimitados.",
+            "C. PNG, por utilizar compresión sin pérdida y admitir transparencia, siendo ideal para logos e iconos.",
+            "D. ICO, ya que es el único formato válido dentro del cuerpo de una página web."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Cuál de las siguientes situaciones se considera un error frecuente de usabilidad relacionado con la iconografía?",
+            "solucion": "B",
+            "opciones": [
+            "A. Acompañar los iconos de acción con etiquetas de texto cuando no son universales.",
+            "B. Utilizar iconos altamente ambiguos, como un lápiz que puede interpretarse como editar o anotar.",
+            "C. Mantener un estilo visual coherente y el mismo grosor de trazo en la barra de navegación.",
+            "D. Utilizar formatos vectoriales limpios (SVG) para garantizar una correcta escalabilidad."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Qué significa técnicamente que un recurso gráfico esté preparado bajo la nomenclatura imagen@2x.png?",
+            "solucion": "A",
+            "opciones": [
+            "A. Que la imagen tiene el doble de píxeles por cada dimensión (ancho y alto), sumando cuatro veces más píxeles en total.",
+            "B. Que la imagen ocupa exactamente el doble de espacio en memoria que el archivo base original.",
+            "C. Que el archivo se ha comprimido aplicando el doble de pérdida de calidad visual.",
+            "D. Que la interfaz escalará automáticamente el ancho de la imagen mediante vectores matemáticos."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Al comparar formatos de mapas de bits, ¿cuál es la diferencia técnica fundamental entre JPEG y PNG?",
+            "solucion": "B",
+            "opciones": [
+            "A. JPEG utiliza compresión sin pérdida para logotipos, y PNG compresión con pérdida para fotos.",
+            "B. JPEG utiliza compresión con pérdida (descartando datos irrelevantes para reducir peso), y PNG compresión sin pérdida (conservando los datos originales).",
+            "C. Ambos utilizan exactamente el mismo algoritmo de compresión y solo se diferencian en el soporte de animaciones.",
+            "D. PNG no aplica ningún tipo de compresión, mientras que JPEG comprime los vectores mediante fórmulas matemáticas."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Cómo se clasifica funcionalmente un indicador visual de carga, una marca de verificación o un aviso de error dentro de una interfaz?",
+            "solucion": "B",
+            "opciones": [
+            "A. Como un elemento puramente decorativo destinado a ambientar visualmente la página.",
+            "B. Como un recurso destinado a dar feedback y notificar el estado de la aplicación.",
+            "C. Como una imagen informativa compleja que requiere un texto alternativo extenso.",
+            "D. Como un elemento de jerarquía visual enfocado en guiar la atención general."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Qué solución técnica es la más adecuada si una serie de imágenes de productos de proporciones variadas deben encajar en una rejilla (grid) sin deformarse?",
+            "solucion": "B",
+            "opciones": [
+            "A. Estirar o acortar forzosamente el ancho de las imágenes para que todas encajen en el contenedor.",
+            "B. Mantener la proporción original aplicando recortes adecuados o márgenes estéticos.",
+            "C. Duplicar la resolución de la pantalla para obligar al navegador a redibujar los píxeles faltantes.",
+            "D. Eliminar el uso de contenedores en la rejilla y mostrar las imágenes a tamaño real sin restricciones."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Qué precaución técnica fundamental se debe tener en cuenta antes de implementar formatos de imagen modernos como AVIF?",
+            "solucion": "A",
+            "opciones": [
+            "A. Comprobar la compatibilidad con los navegadores y dispositivos antiguos, ya que algunos no lo soportan.",
+            "B. Asegurarse de que el formato AVIF solo se utilice en iconos vectoriales simples en lugar de fotografías.",
+            "C. Modificar obligatoriamente el formato a GIF para evitar problemas de compresión en móviles.",
+            "D. Eliminar el texto alternativo, ya que AVIF incluye metadatos de accesibilidad automáticos."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Cuál de estos textos es coherente para explicar la acción de un botón?",
+            "solucion": "B",
+            "opciones": [
+            "A) Guardar",
+            "B) Descargar Archivo",
+            "C) Eliminar",
+            "D) Aceptar"
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Un usuario navega por una página web utilizando la tecla Tab y necesita saber qué botón tiene seleccionado en cada momento. ¿Qué estado debe estar representado visualmente?",
+            "solucion": "C",
+            "opciones": [
+            "A) Hover.",
+            "B) Active.",
+            "C) Focus.",
+            "D) Loading."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Un botón cambia de apariencia mientras el usuario tiene el ratón sobre él. ¿A qué estado corresponde este comportamiento?",
+            "solucion": "A",
+            "opciones": [
+            "A) Hover.",
+            "B) Active.",
+            "C) Focus.",
+            "D) Disabled."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "En una página web, el botón \"Eliminar cuenta\" tiene un color llamativo, mientras que \"Cancelar\" presenta un diseño más discreto. ¿Qué principio de diseño se está aplicando?",
+            "solucion": "C",
+            "opciones": [
+            "A) El feedback visual, porque ambos botones informan del resultado de una acción.",
+            "B) El estado focus, porque permite distinguir las opciones seleccionadas.",
+            "C) La jerarquía de acciones, porque se diferencian visualmente según su importancia.",
+            "D) La accesibilidad táctil, porque se facilita la pulsación de los botones."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "En una tienda online, el botón «Añadir al carrito» tiene el mismo tamaño y color que «Ver más información». ¿Qué problema de diseño puede provocar esta situación?",
+            "solucion": "B",
+            "opciones": [
+            "A) Que los botones no tengan un estado normal definido.",
+            "B) Que el usuario no distinga claramente la importancia de cada acción.",
+            "C) Que el botón principal no pueda mostrar feedback visual.",
+            "D) Que las acciones secundarias dejen de funcionar correctamente."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "En una página web de compras al pulsar el botón Añadir al Carrito, no aparece ningún mensaje de confirmación. ¿Qué principio estamos ignorando?",
+            "solucion": "D",
+            "opciones": [
+            "A) El botón debería tener un estado active más visible.",
+            "B) La acción principal debería utilizar un fondo transparente.",
+            "C) El texto del botón es demasiado específico para una compra.",
+            "D) La interfaz no proporciona feedback sobre el resultado de la acción."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Cuál de estas afirmaciones no es un error a la hora de construir un botón?",
+            "solucion": "C",
+            "opciones": [
+            "A) Diseñar botones pequeños.",
+            "B) Usar poco contraste.",
+            "C) Evitar botones innecesarios o demasiado juntos.",
+            "D) Desactivar botones sin explicación."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Cuál de estas prácticas no constituye dentro del FeedBack visual?",
+            "solucion": "C",
+            "opciones": [
+            "A) Mostrar un mensaje de confirmación después de guardar los cambios.",
+            "B) Informar de un error si no se ha podido enviar un formulario.",
+            "C) Utilizar buen contraste a la hora de el contenido de los botones.",
+            "D) Mostrar un indicador de carga mientras se procesa un pago."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿En qué caso se recomienda marcar los campos con un texto explicativo como \"(opcional)\" en lugar de utilizar el asterisco tradicional (*)?",
+            "solucion": "B",
+            "opciones": [
+            "A) Cuando todos los campos del formulario son opcionales.",
+            "B) Cuando la gran mayoría de los campos del formulario son obligatorios.",
+            "C) Únicamente en formularios de más de tres páginas.",
+            "D) Cuando se utilizan componentes de tipo TextArea."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor el principio de \"Estructura fluida en una sola columna\" en el diseño de formularios?",
+            "solucion": "B",
+            "opciones": [
+            "A) Organiza los campos horizontalmente en filas paralelas para aprovechar todo el ancho disponible de la pantalla.",
+            "B) Facilita la lectura de arriba hacia abajo, evitando que la vista salte de un lado a otro y reduciendo la carga cognitiva.",
+            "C) Agrupa todos los elementos de entrada en un único bloque denso sin separación visual entre secciones.",
+            "D) Obliga a mostrar todos los datos obligatorios y opcionales intercalados de forma aleatoria."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Qué ventaja principal aporta la disposición vertical de las etiquetas (labels) situadas justo sobre los campos de entrada frente a la alineación horizontal?",
+            "solucion": "B",
+            "opciones": [
+            "A) Permite ocultar las etiquetas automáticamente cuando el usuario hace clic en el campo.",
+            "B) Reduce el número de fijaciones visuales y agiliza el completado del formulario, según estudios de eye tracking.",
+            "C) Elimina por completo la necesidad de utilizar textos de ayuda permanentes.",
+            "D) Permite que quepan el doble de campos en el mismo espacio horizontal."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Qué componente de JavaFX es el más adecuado para permitir la introducción de un comentario o descripción extensa de varias líneas?",
+            "solucion": "C",
+            "opciones": [
+            "A) TextField",
+            "B) PasswordField",
+            "C) TextArea",
+            "D) ComboBox"
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Cómo deben diseñarse los mensajes de notificación de error ante datos incorrectos introducidos por el usuario?",
+            "solucion": "B",
+            "opciones": [
+            "A) Mostrando únicamente la palabra genérica «Error» en la parte superior de la página para no saturar el diseño.",
+            "B) Colocándolos de forma clara cerca del campo afectado, explicando qué ha fallado y cómo solucionarlo.",
+            "C) Ocultando automáticamente el formulario completo hasta que se recargue la aplicación.",
+            "D) Utilizando exclusivamente un código numérico interno del sistema sin texto descriptivo."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Cuál es el objetivo principal de dividir un formulario extenso en varios pasos consecutivos mediante el patrón de diseño \"Wizards\"?",
+            "solucion": "B",
+            "opciones": [
+            "A) Aumentar la cantidad de datos innecesarios que se pueden recopilar del usuario.",
+            "B) Evitar el rechazo visual ante formularios muy largos, adaptando la información al momento específico del proceso.",
+            "C) Obligar al usuario a navegar obligatoriamente hacia atrás sin poder avanzar.",
+            "D) Sustituir por completo el uso de botones de envío y validaciones visuales."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Cuál es la finalidad principal de incluir indicadores visuales de éxito (como bordes verdes o iconos de confirmación) durante la validación de un formulario?",
+            "solucion": "B",
+            "opciones": [
+            "A) Ocultar los campos obligatorios para que el formulario parezca más corto.",
+            "B) Permitir que la persona usuaria reconozca de forma rápida y sencilla que un campo se ha completado de manera correcta.",
+            "C) Bloquear el envío del formulario hasta que todos los campos sean de color verde.",
+            "D) Sustituir por completo la necesidad de utilizar etiquetas explicativas junto a los controles."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Dónde deben colocarse por regla general las instrucciones necesarias y los textos de ayuda permanentes para guiar al usuario al rellenar un campo?",
+            "solucion": "C",
+            "opciones": [
+            "A) Ocultos en el código fuente de la aplicación para no saturar la interfaz gráfica.",
+            "B) En un archivo externo de configuración en formato JSON o XML para cargarse dinámicamente.",
+            "C) Justo debajo de cada campo de entrada correspondiente de forma permanente.",
+            "D) Flotando temporalmente sobre el campo y desapareciendo en cuanto este pierde el foco."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Para qué tipo de datos es preferible una tabla frente a otras opciones?",
+            "solucion": "B",
+            "opciones": [
+            "A. Para mostrar imágenes y contenido multimedia.",
+            "B. Para mostrar información estructurada en filas y columnas y comparar datos.",
+            "C. Para presentar textos largos y explicaciones detalladas.",
+            "D. Para mostrar únicamente información gráfica."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Cuál de estos datos son más \"secundarios\" y podrían no mostrarse en la tabla?",
+            "solucion": "C",
+            "opciones": [
+            "A. El nombre y los apellidos de una persona.",
+            "B. El identificador principal de cada registro.",
+            "C. El correo electrónico de una persona",
+            "D. El dni de cada persona"
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Qué es la jerarquía visual?",
+            "solucion": "A",
+            "opciones": [
+            "A. La organización de los elementos según su importancia.",
+            "B. La utilización de muchos colores diferentes en una tabla.",
+            "C. La colocación de todos los elementos con el mismo tamaño.",
+            "D. La ordenación alfabética de los datos."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Cuál de estas opciones puede ser un problema a la hora de crear una tabla?",
+            "solucion": "C",
+            "opciones": [
+            "A. Elegir colores coherentes",
+            "B. Mantener separación entre filas",
+            "C. Utilizar un tamaño de letra pequeño",
+            "D. Alinear los datos de las columnas"
+            ]
+        
+        },
+        {
+        
+            "enunciado": "El usuario quiere ver solo a los pacientes de apellido García y ordenados por nombre, ¿qué debería hacer el usuario?",
+            "solucion": "B",
+            "opciones": [
+            "A. Filtrar",
+            "B. Filtrar y ordenar",
+            "C. Ordenar",
+            "D. Buscar cada paciente individualmente"
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Si una aplicación hecha para escritorio se abre en un móvil, ¿cuál es la solución más fácil para el problema del ancho de la pantalla?",
+            "solucion": "D",
+            "opciones": [
+            "A. Reducir el tamaño de todos los textos hasta que quepan.",
+            "B. Crear una barra de scroll horizontal.",
+            "C. Mostrar solo los datos prioritarios",
+            "D. La B y la C son válidas"
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Por qué una tabla como esta puede manejar tantos datos con facilidad y sin ir lenta a la hora de desplazarse?",
+            "solucion": "A",
+            "opciones": [
+            "A. JavaFX solo dibuja las filas que salen en pantalla.",
+            "B. JavaFX muestra los datos por bloques.",
+            "C. La tabla borra las filas que salen de la pantalla.",
+            "D. La tabla solo carga en memoria las filas que se ven."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Una tabla de notas de instituto muestra las notas con letra muy pequeña, no tiene la posibilidad de ordenar por el nombre de cada alumno, el botón de guardar está pegado al de borrar, son del mismo color y hacen dichas acciones sin confirmación. ¿Cuál de estos errores te parece más grave?",
+            "solucion": "D",
+            "opciones": [
+            "A. La letra",
+            "B. Que no permite ordenar",
+            "C. La distribución y diseño de los botones",
+            "D. Que no exista un botón de confirmación."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Cuál era la característica principal de las páginas web iniciales?",
+            "solucion": "B",
+            "opciones": [
+            "A) Eran interactivas con JavaScript",
+            "B) Eran estáticas y de tamaño fijo",
+            "C) Usaban Flexbox",
+            "D) Eran responsivas"
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Qué ventaja aporta HTML5 frente a versiones anteriores?",
+            "solucion": "C",
+            "opciones": [
+            "A) Mejora la compatibilidad con Internet Explorer",
+            "B) Obliga a usar tablas",
+            "C) Introduce etiquetas semánticas y más flexibilidad en la maquetación",
+            "D) Limita la personalización de estilos"
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Integrar accesibilidad en un sitio web permite:",
+            "solucion": "B",
+            "opciones": [
+            "A) Reducir la cantidad de imágenes",
+            "B) Que personas con distintas capacidades puedan interactuar con la web",
+            "C) Evitar el uso de media queries",
+            "D) Acelerar automáticamente la carga de la página"
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Qué innovó Ethan Marcotte en 2010?",
+            "solucion": "D",
+            "opciones": [
+            "A) Adaptive Web Design",
+            "B) CSS Grid",
+            "C) Mobile-Only Design",
+            "D) Responsive Web Design"
+            ]
+        
+        },
+        {
+        
+            "enunciado": "El diseño adaptativo se caracteriza por:",
+            "solucion": "C",
+            "opciones": [
+            "A) Un solo layout fluido",
+            "B) Cambios automáticos de colores",
+            "C) Diseños predefinidos según rango de pantalla",
+            "D) Layout fijo solo para móvil"
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Una ventaja del diseño responsive frente al adaptativo es:",
+            "solucion": "B",
+            "opciones": [
+            "A) Múltiples versiones de página",
+            "B) Compatibilidad con nuevos dispositivos",
+            "C) Control exacto en cada dispositivo",
+            "D) Mayor mantenimiento"
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Qué ocurre en responsive al pasar de escritorio a móvil?",
+            "solucion": "B",
+            "opciones": [
+            "A) Se carga otra versión de la web",
+            "B) El layout se reorganiza automáticamente",
+            "C) Las imágenes desaparecen",
+            "D) No cambia nada"
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Desventaja principal del diseño adaptativo:",
+            "solucion": "A",
+            "opciones": [
+            "A) Requiere mantenimiento separado por versión",
+            "B) Layout fluido",
+            "C) Compatible con todos los dispositivos",
+            "D) Solo necesita un CSS"
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Qué son los breakpoints?",
+            "solucion": "B",
+            "opciones": [
+            "A) Un tipo de imagen",
+            "B) Puntos donde el layout se ajusta a diferentes anchos",
+            "C) Propiedades CSS de fuente",
+            "D) Una etiqueta HTML"
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Usar sólo px en un layout responsive puede:",
+            "solucion": "D",
+            "opciones": [
+            "A) Hacerlo fluido",
+            "B) Ajustar automáticamente las imágenes",
+            "C) Evitar media queries",
+            "D) Romperlo en pantallas muy grandes o pequeñas"
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Mobile-First significa:",
+            "solucion": "B",
+            "opciones": [
+            "A) Diseñar primero para escritorio",
+            "B) Diseñar primero para móviles",
+            "C) Crear versiones adaptativas",
+            "D) Evitar imágenes responsivas"
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Una ventaja de Mobile-First es:",
+            "solucion": "A",
+            "opciones": [
+            "A) Mejora la accesibilidad y carga de contenido esencial",
+            "B) Aumenta redundancia de código",
+            "C) Reduce compatibilidad con móviles",
+            "D) Obliga a usar layouts fijos"
+            ]
+        
+        },
+        {
+        
+            "enunciado": "grid-template-columns: 1fr 2fr 1fr indica:",
+            "solucion": "A",
+            "opciones": [
+            "A) Columnas proporcionales, segunda columna más ancha",
+            "B) Columnas fijas",
+            "C) Layout automático en filas",
+            "D) Sólo afecta a Flexbox"
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Ventaja de <picture> frente a srcset:",
+            "solucion": "A",
+            "opciones": [
+            "A) Elegir formato según navegador",
+            "B) Cambiar layout automáticamente",
+            "C) Evitar media queries",
+            "D) Sustituye Flexbox"
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Lazy Loading (loading=\"lazy\") permite:",
+            "solucion": "B",
+            "opciones": [
+            "A) Mejor estética",
+            "B) Reducir carga inicial y optimizar recursos",
+            "C) Cambiar tamaño automáticamente",
+            "D) Evitar media queries"
+            ]
+        
+        },
+        {
+        
+            "enunciado": "En un sistema de diseño, ¿qué función cumplen los tokens de sistema (por ejemplo, --color-primary) según el modelo de Material Design?",
+            "solucion": "C",
+            "opciones": [
+            "A. Guardan los valores en bruto, como todos los tonos de azul de la paleta.",
+            "B. Definen el estilo de una sola pantalla concreta.",
+            "C. Indican para qué sirve cada valor y apuntan a un token de referencia.",
+            "D. Sustituyen a los componentes reutilizables."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "En una web, el botón «Cancelar» cierra el formulario en una página, pero en otra guarda los datos. ¿Qué tipo de inconsistencia es?",
+            "solucion": "A",
+            "opciones": [
+            "A. Funcional: la misma etiqueta no produce siempre el mismo comportamiento.",
+            "B. Visual: los colores de ambos botones son distintos.",
+            "C. De tipografía: el tamaño de letra es diferente.",
+            "D. No es una inconsistencia, porque cada página es independiente."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Según las pautas WCAG sobre identificación consistente, ¿cuál de estas situaciones es un fallo?",
+            "solucion": "D",
+            "opciones": [
+            "A. Un buscador muestra el texto «Search» en escritorio y una lupa con nombre accesible «Search» en móvil.",
+            "B. Un botón «Siguiente» pasa a llamarse «Anterior» en la última página de una secuencia.",
+            "C. Dos botones distintos usan el mismo color corporativo.",
+            "D. El buscador se llama «Search» en unas páginas y «Find» en otras haciendo lo mismo."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Un texto normal (16 px) tiene un contraste de 3:1 con su fondo. ¿Qué conclusión es correcta según las WCAG?",
+            "solucion": "B",
+            "opciones": [
+            "A. Es válido, porque 3:1 es el mínimo para cualquier texto.",
+            "B. No es suficiente: el texto normal necesita al menos 4,5:1.",
+            "C. Es válido siempre que el texto sea de color gris.",
+            "D. No es suficiente: se necesita 7:1 como mínimo obligatorio."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Un desarrollador escribe: --color-primary: var(--blue-600); y después .btn { background: var(--color-primary); }. Si la marca cambia a verde, ¿qué debe modificar para que cambien todos los botones?",
+            "solucion": "D",
+            "opciones": [
+            "A. Cada regla .btn de cada archivo CSS.",
+            "B. Solo el HTML de cada botón.",
+            "C. El valor de --color-primary en cada página por separado.",
+            "D. El valor de referencia (--blue-600) o a qué token apunta --color-primary."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Se revisa este CSS: .btn { background: #1a56db; } .card a { color: #1a56db; } .menu { color: #1a56db; } ¿Qué problema de diseño presenta?",
+            "solucion": "A",
+            "opciones": [
+            "A. Repite un valor a mano en vez de usar un token, lo que dificulta mantener la consistencia.",
+            "B. Usa demasiadas variables CSS.",
+            "C. No es válido en CSS moderno.",
+            "D. El mismo azul no puede aparecer en más de un elemento de la web."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Un equipo elimina el contorno del foco con outline: none en todos los botones porque no le gusta cómo se ve. ¿Qué es lo más correcto?",
+            "solucion": "C",
+            "opciones": [
+            "A. Dejarlo así, porque el foco solo importa con el ratón.",
+            "B. Ocultar también el foco en los enlaces.",
+            "C. Sustituirlo por un estilo propio con :focus-visible y buen contraste.",
+            "D. Poner el foco solo en el estado hover."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Un equipo debe elegir entre copiar y pegar el código de un botón en cada página o crear un componente reutilizable. ¿Por qué es mejor lo segundo para la consistencia?",
+            "solucion": "B",
+            "opciones": [
+            "A. Porque el navegador carga más rápido cualquier página con componentes.",
+            "B. Porque cualquier corrección se hace en un único sitio y se aplica en todas partes.",
+            "C. Porque evita tener que definir los estados del botón.",
+            "D. Porque permite usar un estilo distinto en cada página."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Cuál es el principal objetivo de una interfaz accesible?",
+            "solucion": "B",
+            "opciones": [
+            "A. Conseguir que la interfaz tenga un diseño más moderno y atractivo.",
+            "B. Permitir que el mayor número de personas pueda utilizarla independientemente de sus capacidades.",
+            "C. Reducir la cantidad de elementos visuales de una aplicación.",
+            "D. Conseguir que la aplicación funcione únicamente mediante teclado."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Por qué no debemos utilizar únicamente el color para transmitir información?",
+            "solucion": "C",
+            "opciones": [
+            "A. Porque los colores pueden ralentizar la carga de la interfaz.",
+            "B. Porque utilizar muchos colores dificulta el mantenimiento del código.",
+            "C. Porque algunas personas pueden tener dificultades para distinguir determinados colores.",
+            "D. Porque los colores no son compatibles con los lectores de pantalla."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Qué ventaja tiene utilizar etiquetas semánticas como <header>, <nav> y <main>?",
+            "solucion": "A",
+            "opciones": [
+            "A. Permiten organizar el contenido en bloques y facilitan la navegación mediante lectores de pantalla.",
+            "B. Hacen que la página web cargue más rápido.",
+            "C. Permiten cambiar automáticamente el tamaño de los textos.",
+            "D. Evitan que los usuarios necesiten utilizar el teclado."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Un usuario navega por una página utilizando únicamente el teclado, pero no puede saber en qué elemento se encuentra porque no aparece ningún indicador visual. ¿Qué problema de accesibilidad presenta la interfaz?",
+            "solucion": "D",
+            "opciones": [
+            "A. Un problema de contraste en las imágenes.",
+            "B. Un problema de estructura semántica.",
+            "C. Un problema de texto alternativo.",
+            "D. Un problema de visibilidad del foco."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Qué característica debería tener un formulario para facilitar su uso a personas que no pueden utilizar un ratón?",
+            "solucion": "B",
+            "opciones": [
+            "A. Tener todos los campos colocados en una misma línea.",
+            "B. Permitir navegar por todos sus campos mediante el teclado y mantener un orden lógico de tabulación.",
+            "C. Utilizar exclusivamente colores para indicar los errores.",
+            "D. Evitar el uso de atributos de autocompletado."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "¿Para qué sirven los textos alternativos asociados a las imágenes?",
+            "solucion": "C",
+            "opciones": [
+            "A. Para mejorar la calidad visual de las imágenes.",
+            "B. Para reducir el tamaño de los archivos de imagen.",
+            "C. Para proporcionar una descripción textual que puedan interpretar los lectores de pantalla.",
+            "D. Para permitir que las imágenes se adapten automáticamente al tamaño de la pantalla."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Según los principios POUR de accesibilidad, ¿qué significa que una interfaz sea robusta?",
+            "solucion": "D",
+            "opciones": [
+            "A. Que su diseño tenga una estructura visual resistente a los cambios.",
+            "B. Que todos sus elementos tengan el mismo tamaño.",
+            "C. Que pueda utilizarse únicamente con dispositivos modernos.",
+            "D. Que su contenido pueda ser interpretado por diferentes herramientas de apoyo."
+            ]
+        
+        },
+        {
+        
+            "enunciado": "Una aplicación móvil obliga a utilizar el dispositivo en posición vertical y tiene botones demasiado pequeños para pulsarlos cómodamente. ¿Qué aspectos de accesibilidad debería mejorar?",
+            "solucion": "A",
+            "opciones": [
+            "A. La interacción táctil y la adaptación a diferentes orientaciones del dispositivo.",
+            "B. La estructura de los encabezados y los enlaces descriptivos.",
+            "C. El uso de listas ordenadas y desordenadas.",
+            "D. La jerarquía semántica de los bloques de contenido."
+            ]
+        
+        }
+    ]
+}
