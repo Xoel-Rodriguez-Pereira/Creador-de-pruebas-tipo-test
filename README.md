@@ -1,6 +1,9 @@
 Este repositorio es un programa que permite convertir un archivo json con preguntas y respuestas a un test de hasta 20 preguntas elegidas al azar entre todas las del json.
+
 El formato que debe tener el json es el siguiente:
-`{
+
+
+
     "preguntas": [
         {
             "enunciado": "Al diseñar una aplicación, ¿Qué principios de diseño se están aplicando principalmente?",
@@ -11,10 +14,10 @@ El formato que debe tener el json es el siguiente:
               "C. Un diseño basado exclusivamente en el lenguaje de presentación para transmitir datos de forma unidireccional.",
               "D. Una interfaz de preguntas y respuestas donde el ordenador guía de forma rígida cada paso del proceso."
             ]
-        }
+        },
         ···
     ]
-}`
+
 
 Para lanzar la aplicación es necesario java 25 o superior.
 - Descarga o clona el repositorio.
